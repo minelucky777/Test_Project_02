@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Build.Content;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody playerRigidbody;
     public float speed =8f;
+    public GameObject gameObj;
+    GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
